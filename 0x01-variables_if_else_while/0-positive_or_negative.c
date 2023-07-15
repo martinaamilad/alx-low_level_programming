@@ -4,8 +4,8 @@
 /*The program assign random number to the variable each time it is executed*/
 
 /**
- * this program prints whether the number stored in the variable n is positive and negative
- * to the variable
+ * this program prints whether the number stored in the variable
+ * n is positive or negative
  */
 int main(void)
 {
