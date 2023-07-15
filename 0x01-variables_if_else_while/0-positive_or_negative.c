@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/*Using library */
+/*Ths program will assign a random number to the variable n each time it is executed*/
 
 /**
- * This program will assign a rondom number to the variable n
+ * use the main fuction
  * then use if and if else
  */
 int main(void)
