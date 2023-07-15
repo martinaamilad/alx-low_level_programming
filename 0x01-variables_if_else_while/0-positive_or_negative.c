@@ -9,6 +9,7 @@
  * n is positive or negative
  */
 int main(void)
+ /*seed the random number generator*/
 {
 	int n;
 
