@@ -4,9 +4,11 @@
 /*The program assign random number to the variable each time it is executed*/
 
 /**
- * this program prints whether the number stored in the variable
+ * main - Entry point
  *
- * n is positive or negative
+ * Description: generate random number
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
  /*seed the random number generator*/
