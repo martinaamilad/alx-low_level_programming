@@ -1,8 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
-/*more headers goes there */
+/*Using library */
 
-/*betty style doc for functions goes there*/
+/**
+ * main function used is int main 
+ * then use if and if else
+ */
 int main(void)
 { 
 	int n;
