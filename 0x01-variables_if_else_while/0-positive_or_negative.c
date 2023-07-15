@@ -4,7 +4,7 @@
 /*Using library */
 
 /**
- * main function used is int main
+ * This program will assign a rondom number to the variable n each time it is executed
  * then use if and if else
  */
 int main(void)
