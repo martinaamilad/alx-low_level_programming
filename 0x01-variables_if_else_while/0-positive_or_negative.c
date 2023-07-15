@@ -4,8 +4,8 @@
 /*The program assign random number to the variable each time it is executed*/
 
 /**
- * use the main fuction
- * then use if and if else
+ * the program assign random number
+ * to the variable
  */
 int main(void)
 {
