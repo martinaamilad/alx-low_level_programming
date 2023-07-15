@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/*Ths program will assign a random number to the variable n each time it is executed*/
+/*The program assign random number to the variable  each time it is executed*/
 
 /**
  * use the main fuction
