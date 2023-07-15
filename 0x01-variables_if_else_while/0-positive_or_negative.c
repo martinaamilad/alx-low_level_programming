@@ -8,7 +8,7 @@
  * then use if and if else
  */
 int main(void)
-{ 
+{
 	int n;
 
 	srand(time(0));
