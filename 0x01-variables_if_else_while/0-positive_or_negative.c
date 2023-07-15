@@ -4,7 +4,7 @@
 /*Using library */
 
 /**
- * main function used is int main 
+ * main function used is int main
  * then use if and if else
  */
 int main(void)
