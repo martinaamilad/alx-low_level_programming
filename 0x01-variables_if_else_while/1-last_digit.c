@@ -6,9 +6,12 @@
 /**
  * main - Prints a text according number
  *
- * Reurn: Always (Success)
+ * Description: print a text
+ *
+ * Reurn: Always 0 (Success)
  */
 int main(void)
+/*prints a text*/
 {
 	int n, lastd;
 
