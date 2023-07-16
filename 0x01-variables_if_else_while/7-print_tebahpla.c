@@ -3,7 +3,7 @@
 /**
  * main - print reverse alphabet
  *
- * Return: Alwyas (Success)
+ * Return: Always (Success)
  */
 int main(void)
 {
