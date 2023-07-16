@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/*more headers goes there*/
+/*main prints texts*/
 
 /**
  * main - Prints a text according number
