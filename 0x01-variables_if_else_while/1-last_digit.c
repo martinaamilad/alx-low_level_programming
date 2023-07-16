@@ -4,7 +4,7 @@
 /*main prints texts*/
 
 /**
- * main - Prints a text according number
+ * main - Entry point
  *
  * Description: print a text
  *
