@@ -6,9 +6,9 @@
 /**
  * main - Prints a text according number
  *
- * Reurn: Always 0 (Success)
+ * Reurn: Always (Success)
  */
-int main()
+int main(void)
 {
 	int n, lastd;
 
