@@ -8,7 +8,7 @@
  *
  * Description: print a text
  *
- * Reurn: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 /*prints a text*/
