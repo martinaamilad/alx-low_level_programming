@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print number base 10
+ * main - print number base ten
  *
  * Return: Always (Success)
  */
