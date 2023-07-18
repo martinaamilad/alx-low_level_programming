@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "min.h"
 
 /**
  * main - Entry point
