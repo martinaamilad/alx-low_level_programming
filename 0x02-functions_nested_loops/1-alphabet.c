@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * print_alphabet - make alphabet
@@ -7,17 +7,14 @@
  */
 void print_alphabet(void)
 {
-	int main(void)
-	{
-		int c;
+	char c;
 
 	for ( c = 'a'; c <= 'z'; c++)
 	{
-		putchar(c);
+		_putchar(c);
 	}
 	
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
-}
 }
