@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <main.h>
 
 /**
  * main - Entry point
@@ -8,8 +7,8 @@
  */
 int main(void)
 {
-void print_alphabet(void)
-{
+	void print_alphabet(void)
+	{
 	char c;
 	{
 		for (c = 'a'; c <= 'z'; c++)
@@ -20,4 +19,5 @@ void print_alphabet(void)
 	}
 
 	return (0);
+}
 }
