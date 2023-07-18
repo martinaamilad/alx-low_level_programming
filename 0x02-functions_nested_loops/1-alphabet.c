@@ -1,19 +1,14 @@
 #include <stdio.h>
+#include <main.h>
 
 /**
  * print_alphabet - make alphabet
  *
  * Return: void
  */
-void print_alphabet(void)
-{
-	char ch = 'a';
-
-	while (ch <= 'z')
-	{
+void print_alphabet(void){
+	for (char ch = 'a'; ch <= 'z'; ch++) {
 		putchar(ch);
-		ch++;
 	}
-
 	putchar('\n');
 }
