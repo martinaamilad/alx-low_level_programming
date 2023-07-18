@@ -2,10 +2,12 @@
 #include <main.h>
 
 /**
- * print_alphabet - make alphabet
+ * main - Entry point
  *
  * Return: Always 0
  */
+int main(void)
+{
 void print_alphabet(void)
 {
 	char c;
@@ -16,3 +18,6 @@ void print_alphabet(void)
 		}
 		putchar('\n');
 	}
+
+	return (0);
+}
