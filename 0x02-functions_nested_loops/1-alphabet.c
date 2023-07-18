@@ -5,9 +5,14 @@
  *
  * Return: void
  */
-void print_alphabet(void){
-	for (char ch = 'a'; ch <= 'z'; ch++) {
-		putchar(ch);
+void print_alphabet(void)
+{
+	int c;
+
+	for ( c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
 	}
-	putchar('\n');
+	
+	_putchar('\n');
 }
