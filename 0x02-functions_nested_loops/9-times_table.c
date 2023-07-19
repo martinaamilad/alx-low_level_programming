@@ -8,7 +8,8 @@
  */
 void times_table(void);
 
-int main(){
+int main()
+{
 	times_table();
 
 	return (0);
