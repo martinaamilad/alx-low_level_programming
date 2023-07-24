@@ -2,6 +2,7 @@
 
 /**
  * _strlen - to return the length
+ * @length: the length of the variable
  *
  * Return: Always succes
  */
