@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
+ * _strlen - to return the length
  *
- *
- *
+ * Return: Always succes
  */
 int _strlen(char *s)
 {
