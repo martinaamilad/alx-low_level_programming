@@ -3,6 +3,7 @@
 /**
  * _strcpy - is to copy
  * @src: the variable
+ * @dest: the variable
  *
  * Return: Always success
  */
