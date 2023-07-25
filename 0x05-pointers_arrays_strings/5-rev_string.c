@@ -1,9 +1,11 @@
 #include "main.h"
+#include <string.h>
 
 /**
+ * rev_string - to reverse string
+ * @s: the variable
  *
- *
- *
+ * Retuen: void
  */
 void rev_string(char *s)
 {
