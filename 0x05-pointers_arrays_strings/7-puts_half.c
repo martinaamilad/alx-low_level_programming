@@ -13,14 +13,16 @@ void puts_half(char *str)
 
 	if (len % 2 == 0)
 	{
-		for (int i = len / 2; i < len; i++)
+		int i;
+		for (i = len / 2; i < len; i++)
 		{
 			_putchar(str[i]);
 		}
 	}
 	else
 	{
-		for (int i = (len - 1) / 2 + 1; i < len; i++)
+		int i;
+		for (i = (len - 1) / 2 + 1; i < len; i++)
 		{
 			_putchar(str[i]);
 		}
