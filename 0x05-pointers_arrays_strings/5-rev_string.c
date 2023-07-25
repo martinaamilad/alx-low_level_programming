@@ -4,7 +4,6 @@
 /**
  * rev_string - to reverse string
  * @s: the variable
- * @temp: a variable
  *
  * Retuen: void
  */
