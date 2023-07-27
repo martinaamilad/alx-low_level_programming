@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncpy - to copy a sting
+ * _strncpy - copy a sting
  * @dest: input value
  * @src: input value
  * @n: input value
@@ -15,8 +15,8 @@ char *_strncpy(char *dest, char *src, int n)
 	k = 0;
 	while (k < n && src[k] != '\0')
 	{
-		dest [k] = src[k];
-		k++
+		dest[k] = src[k];
+		k++;
 	}
 	while (k < n)
 	{
