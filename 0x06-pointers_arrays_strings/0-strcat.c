@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcat -  to concatinate variable to another
+ * *_strcat - to concatinate variable to another
  * @dest: input value
  * @src: input value
  *
