@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcat - to concatinate variable to another
+ * _strcat - to concatinate variable to another
  * @dest: input value
  * @src: input value
  *
@@ -20,7 +20,7 @@ char *_strcat(char *dest, char *src)
 	n = 0;
 	while (src[n] != '\0')
 	{
-		dest[n] = src[n];
+		dest[k] = src[n];
 		k++;
 		n++;
 	}
