@@ -2,26 +2,29 @@
 
 /**
  * _strcat -  to concatinate variable to another
- * @dest: variable
- * @src: the second variable
+ * @dest: input value
+ * @src: input value
  *
- * Return: dest
+ * Return: void
  */
 char *_strcat(char *dest, char *src)
 {
-	char *p = dest;
+	int k;
+	int n;
 
-	while (*p)
+	k = 0;
+	while (dest[k] != '\0')
 	{
-		p++;
+		k++;
+	}
+	n = 0;
+	while (src[n] != '\0')
+	{
+		dest[n] = src[n];
+		k++;
+		n++;
 	}
 
-	while (*scr)
-	{
-		*p++ = *src++;
-	}
-
-	*p = '\0';
-
-	return dest;
+	dest[k] = '\0';
+	return (dest);
 }
