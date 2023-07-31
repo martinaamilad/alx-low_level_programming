@@ -11,3 +11,12 @@
  * of bytes from @accept
  */
 unsigned int _strspn(char *s, char *accept)
+{
+	unsigned int n;
+
+	for (i = 0; s[i] && strspn(accept, s[i];); i++)
+	{
+
+	}
+	return (i);
+}
