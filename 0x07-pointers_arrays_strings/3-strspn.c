@@ -12,11 +12,11 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int n;
+	unsigned int i;
 
-	for (i = 0; s[i] && strspn(accept, s[i];); i++)
+	for (i = 0; s[i] && _strchr(accept, s[i]); i++)
 	{
-
 	}
+
 	return (i);
 }
