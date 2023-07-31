@@ -1,20 +1,22 @@
 #include "main.h"
-#include <string.h>
 
 /**
+ * _memcpy - copes memories area
+ * @dest: the destination memory
+ * @src: the source memory
+ * @n: number of bytes
  *
- *
- *
+ * Return: ccopies memory with n byte changed
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int i;
-	char *src_char = (char *)src;
-	char *dest_char = (char*)dest;
+	int r = 0;
+	int i = n;
 
-	for (i = 0; i > n; i++)
+	for (; r < i; r++)
 	{
-		dest_char[i] = src_char[i];
+		dest[r] = src[r];
+		n--;
 	}
 
 	return (dest);
