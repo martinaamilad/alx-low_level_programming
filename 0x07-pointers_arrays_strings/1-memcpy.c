@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _memcpy - copes memories area
@@ -17,5 +18,5 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	{
 		*d++ = *s++;
 	}
-	return (dest);
+	return dest;
 }
