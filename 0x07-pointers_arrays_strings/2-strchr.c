@@ -1,4 +1,5 @@
 #include <stdlid.h>
+#include <string.h>
 #include "main.h"
 
 /**
@@ -9,21 +10,15 @@
  */
 char *_strchr(char *s, char c)
 {
-	while (*s)
+	int i;
+	
+	for(i = 0; i < _strlen(s); i++)
 	{
-		if (*s != c)
+		if (c == s[i])
 		{
-			s++;
+			return (c);
 		}
 		else
-		{
-			return (s);
-		}
+			return (NULL);
 	}
-	if (c == '\0')
-	{
-		return (s);
-	}
-
-	return (NULL);
 }
