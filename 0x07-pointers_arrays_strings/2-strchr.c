@@ -6,4 +6,6 @@
  *
  *
  */
+char *_strchr(char *s, charc)
+{
 
