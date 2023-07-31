@@ -12,28 +12,22 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-    unsigned int i;
-    int found;
+  size_t i,j;
+  i=0;
 
-    i = 0;
-    while (s[i])
-    {
-        found = 0;
-        for (const char *p = accept; *p; p++)
-        {
-            if (s[i] == *p)
-            {
-                found = 1;
-                break;
-            }
-        }
-        if (!found)
-        {
-            break;
-        }
-        i++;
+  while(*(s+i)){
+    j=0;
+    while(*(accept+j)){
+      if(*(s+i) == *(accept+j)){
+        break; //Found a match.
+      }
+      j++;
     }
-
-    return i;
+    if(!*(accept+j)){
+      return i; //No match found.
+    }
+    i++;
+  }
+  return i;
 }
 	
