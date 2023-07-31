@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * _memset - to fill the memory with new value
- * @*s: pointer 
+ * _memset - fill a block of memory with a specific value
+ * @*s: pointer
+ * @n: number of bytes to be changed
  * @b: the value
  *
- * Return: s
+ * Return: changed array with the vew value
  */
 char *_memset(char *s, char b, unsigned int n)
 {
