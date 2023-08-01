@@ -7,20 +7,24 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	const char *i;
-	const char *j;
-
-	for (i = s; *i; i++)
+	if (s == NULL || accept == NULL)
 	{
-		for (j = accept; *j; j++)
-		{
-			if (*i == *j)
-			{
-				return (char*)i;
-			}
-		}
+		return (NULL);
 	}
 	
+	const char *temp;
+	while (*s != '\0')
+	{
+		temp = accept;
+		while (*temp != '\0')
+		{
+			if (*s == *temp)
+			{
+				return (char *)s;
+			}
+			tepm++;
+		}
+		s++;
+	}
 	return (NULL);
-
 }
