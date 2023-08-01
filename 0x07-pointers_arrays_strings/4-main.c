@@ -10,9 +10,9 @@ int main(void)
 {
     char *s = "hello, world";
     char *f = "world";
-    char *t;
+    char *p;
 
-    t = _strpbrk(s, f);
-    printf("%s\n", t);
+    p = _strpbrk(s, f);
+    printf("%p\n", p);
     return (0);
 }
