@@ -7,18 +7,25 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	while (*s != '\0')
+       	char* a = accept;
+	while(*a != '\0')
 	{
-		const char *str = accept; 
-		while (*str != '\0')
+		char* s1 = s;
+		char* a1 = a;
+		
+		while(*s1 != '\0' && *a1 != '\0' && *s1 == *a1)
 		{
-			if (*s == *str)
-			{
-				return (char*)s;
-			}
-			str++;
+			s1++;
+			a1++;
 		}
-		s++;
-	}
-	return (NULL);
+		
+		if(*s1 == '\0')
+		{
+			return a;
+		}
+		
+		a++;
+  }
+
+  return NULL
 }
