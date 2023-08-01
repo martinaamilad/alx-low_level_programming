@@ -15,9 +15,12 @@ unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i;
 
-	while (string[i] && _strchr(accept, string[i]))
+	for (; string[i] && (accpet[i] || !accept[i]); i++)
 	{
-		i++;
+		if (!accept[i])
+		{
+			break;
+		}
 	}
 	return (i);
 }
