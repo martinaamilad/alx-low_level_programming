@@ -23,9 +23,7 @@ char *_strpbrk(char *s, char *accept)
 		{
 			return a;
 		}
-		
 		a++;
-  }
-
-  return NULL
+	}
+	return NULL
 }
