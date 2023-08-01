@@ -13,14 +13,21 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i;
+	int i, j;
+	int c = 0;
 
-	for (; string[i] && (accpet[i] || !accept[i]); i++)
+	for (i = 0, s[i] != '\0'; i++)
 	{
-		if (!accept[i])
+		if (s[i] != 32)
 		{
-			break;
+			for (j = 0; accept[j] != '\0'; j++)
+			{
+				if (s[i] == accept[j])
+					c++;
+			}
 		}
+		else
+			return (c);
 	}
-	return (i);
+	return (c);
 }
