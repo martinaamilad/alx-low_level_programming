@@ -3,7 +3,7 @@
 
 /**
  * _memset - fill a block of memory with a specific value
- * @*s: pointer
+ * @s: pointer
  * @n: number of bytes to be changed
  * @b: the value
  *
