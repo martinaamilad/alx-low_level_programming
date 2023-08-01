@@ -15,9 +15,9 @@ unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i;
 
-	for (i = 0; s[i] && _strchr(accept, s[i]); i++)
+	while (string[i] && _strchr(accept, string[i]))
 	{
+		i++;
 	}
-
 	return (i);
 }
