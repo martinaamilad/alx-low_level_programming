@@ -1,20 +1,17 @@
 #include "main.h"
 
 /**
- *
- *
+ * _puts_recursion - Prints a string, followed by a new line.
+ * @s: the string to be printed
  *
  */
 void _puts_recursion(char *s)
 {
-  if (*s == '\0')
-  {
-    // Reached the end of the string, so print a newline
-    putchar('\n');
-    return;
-  }
-
-  // Print the current character, then recurse on the rest of the string
-  putchar(*s);
-  _puts_recursion(s + 1);
+	if (s[0] != '\0')
+	{
+		_putchar(s[0]);
+		_puts_recursion(s + 1);
+	}
+	else
+		_putchar('\n');
 }
