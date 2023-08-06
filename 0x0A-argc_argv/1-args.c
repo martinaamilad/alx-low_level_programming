@@ -1,14 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - print theprogram name
+ * main - print the program name
  * @argc: int
  * @argv: list
  * Return: 0
  */
-int main(int argc, char *agrv[])
+int main(int argc, char *agrv[] __attribute__((unused)))
 {
-	(void)agrv;
 	printf("%d\n", argc - 1);
 	return (0);
 }
