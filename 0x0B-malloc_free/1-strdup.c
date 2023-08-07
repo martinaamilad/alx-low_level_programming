@@ -2,10 +2,9 @@
 #include <stdlib.h>
 
 /**
- * create_array - create an array of chars, and initialize with specific char
- * @size: size of array
- * @c: specific char
- * Return: char pointer to malloc created memory address or NULL if error
+ * _strdup - Duplicate a string using malloc
+ * @str: string to duplicate
+ * Return: Pointer to a the new duped string
  */
 char *_strdup(char *str)
 {
@@ -26,9 +25,7 @@ char *_strdup(char *str)
 	}
 
 	for (c = 0; c < i; c++)
-	{
 		a[c] = str[c];
-		a[c] = '\0';
-	}
+	a[c] = '\0';
 	return (a);
 }
