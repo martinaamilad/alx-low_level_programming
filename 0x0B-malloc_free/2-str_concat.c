@@ -7,7 +7,6 @@
  * @s2: string 2
  * Return: pointer to concat string
  */
-
 char *str_concat(char *s1, char *s2)
 {
 	char *a;
