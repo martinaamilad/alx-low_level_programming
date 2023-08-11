@@ -2,10 +2,9 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked -  to allocate the memory
- * @ptr: the pointer
- *
- * Return: 0
+ * *malloc_checked - allocate memory with malloc
+ * @b: unsigned int type
+ * Return: return pointer
  */
 void *malloc_checked(unsigned int b)
 {
